@@ -1,9 +1,13 @@
 <template>
-  <div class="flex flex-col space-y-3">
-    <img src="/four0four.jpg" alt="4o4-temp" class="w-[250px] rounded-xl" />
-    <Skeleton class="h-[96px] w-[250px] rounded-xl" />
+  <div class="flex flex-col space-y-3 p-8">
+    <img
+      src="/four0four.jpg"
+      alt="4o4-temp"
+      class="w-[720px] md:w-[320px] rounded-xl"
+    />
+    <Skeleton class="h-[96px] w-[320px] rounded-xl" />
     <div class="space-y-2">
-      <Skeleton class="h-4 w-[250px]" />
+      <Skeleton class="h-4 w-[240px]" />
       <Skeleton class="h-4 w-[200px]" />
     </div>
 
