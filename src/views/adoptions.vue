@@ -38,6 +38,15 @@
           <Badge>hello@lespetitsclochards.fr</Badge>
         </a>
       </div>
+
+      <div class="font-mono text-xs">
+        <a
+          href="https://lespetitsclochards.fillout.com/chatmille-accueil"
+          target="_blank"
+        >
+          <Badge>Devenons Chat'mille d'Accueil</Badge>
+        </a>
+      </div>
     </div>
   </div>
 </template>
