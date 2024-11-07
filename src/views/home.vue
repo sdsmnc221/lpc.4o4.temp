@@ -23,8 +23,8 @@
     </div>
 
     <div class="font-mono text-xs">
-      <a href="mailto:hello@lespetitsclochards.fr" target="_blank">
-        <Badge>hello@lespetitsclochards.fr</Badge>
+      <a href="mailto:lespetitsclochards91@gmail.com" target="_blank">
+        <Badge>lespetitsclochards91@gmail.com</Badge>
       </a>
     </div>
   </div>
