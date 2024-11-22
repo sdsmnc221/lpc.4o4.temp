@@ -38,7 +38,7 @@
           href="https://lespetitsclochards.fillout.com/pre-adoption"
           target="_blank"
         >
-          <Badge>Formulaire pour préavis d'adoption (sans stresse !)</Badge>
+          <Badge>Formulaire pour préavis d'adoption</Badge>
         </a>
       </div>
 
