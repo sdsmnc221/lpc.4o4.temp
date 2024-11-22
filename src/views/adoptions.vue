@@ -34,6 +34,15 @@
       </div>
 
       <div class="font-mono text-xs">
+        <a
+          href="https://lespetitsclochards.fillout.com/pre-adoption"
+          target="_blank"
+        >
+          <Badge>Formulaire pour préavis d'adoption (sans stresse !)</Badge>
+        </a>
+      </div>
+
+      <div class="font-mono text-xs">
         <a href="mailto:lespetitsclochards91@gmail.com" target="_blank">
           <Badge>lespetitsclochards91@gmail.com</Badge>
         </a>
@@ -42,6 +51,7 @@
       <div class="font-mono text-xs">
         <a
           href="https://lespetitsclochards.fillout.com/chatmille-accueil"
+          l
           target="_blank"
         >
           <Badge>Devenons Chat'mille d'Accueil</Badge>
