@@ -1,6 +1,8 @@
 <template>
   <div class="adoptions snoop-tagada flex flex-col space-y-3 p-8">
-    <h1 class="font-mono text-lg md:mt-4 md:w-1/2 m-auto">
+    <h1
+      class="font-mono text-lg md:mt-4 md:w-1/2 md:text-left text-center m-auto"
+    >
       <img
         src="/snoop-tagada/cover.jpg"
         alt="Adoption de Snoop et Tagada"
@@ -12,9 +14,9 @@
       <span class="font-bold">Or Noir.</span>
     </h1>
 
-    <div class="m-auto flex flex-col space-y-3 md:w-1/2">
+    <div class="m-auto flex flex-col space-y-3 md:w-1/2 w-72">
       <div class="flex md:flex-row flex-col font-mono">
-        <div class="md:basis-1/2 basis-full mr-10">
+        <div class="md:basis-1/2 basis-full md:mr-10">
           <h2 class="text-left text-base mt-4">
             <span class="font-bold">Snoop</span>
           </h2>
@@ -66,7 +68,7 @@
       </div>
 
       <div class="flex md:flex-row flex-col w-100 font-mono">
-        <div class="md:basis-1/2 basis-full mr-10">
+        <div class="md:basis-1/2 basis-full md:mr-10">
           <div class="font-mono">
             <h2 class="text-left text-base mt-4">
               <span class="font-bold">Leur histoire d'amour fraternel :</span>
@@ -128,8 +130,8 @@
         </div>
       </div>
 
-      <div class="flex md:flex-row flex-col items-center">
-        <div class="basis-1/2 font-mono mr-10">
+      <div class="flex md:flex-row w-100 flex-col items-center">
+        <div class="md:basis-1/2 basis-full font-mono md:mr-10">
           <h3 class="font-bold mt-4">
             Témoignages de Marie <br />(notre comportementaliste) :
           </h3>
