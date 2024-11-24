@@ -22,17 +22,19 @@
           </h2>
           <p class="text-xs">4 ans, mâle, né 09.2020</p>
           <div class="h-px bg-slate-400 mb-4"></div>
-          <p class="text-xs">
-            - Castré, identifié.
-            <br />
-            - <span class="font-semibold">Peureux</span> mais
-            <span class="font-semibold">se laisse parfois caresser</span> en lui
-            tendant la main pour qu’il s’y frotte avec sa joue, surtout au
-            moment de la pâtée et des friandises.
-            <br />
-            - <span class="font-semibold">Très joueur.</span>
+          <p class="text-xs min-h-24 flex flex-col items-start justify-center">
+            <span class="inline-block">- Castré, identifié.</span>
+            <span class="inline-block"
+              >- <span class="font-semibold">Peureux</span> mais
+              <span class="font-semibold">se laisse parfois caresser</span> en
+              lui tendant la main pour qu’il s’y frotte avec sa joue, surtout au
+              moment de la pâtée et des friandises.</span
+            >
+            <span class="inline-block"
+              >- <span class="font-semibold">Très joueur.</span></span
+            >
           </p>
-          <div class="h-px bg-slate-400 mt-4"></div>
+          <div class="h-px bg-slate-400 mt-4 mb-2"></div>
           <p class="text-xs">
             <span class="font-bold"
               >Ce serait bien qu’il reste avec sa sœur Tagada.</span
@@ -46,19 +48,18 @@
           </h2>
           <p class="text-xs">4 ans, femelle, née 09.2020</p>
           <div class="h-px bg-slate-400 mb-4"></div>
-          <p class="text-xs">
-            - Stérélisée, identifiée.
+          <p class="text-xs min-h-24 flex flex-col items-start justify-center">
+            <span class="inline-block">- Stérélisée, identifiée.</span>
             <br />
-            - Très <span class="font-semibold">peureuse</span>, très
-            <span class="font-semibold">joueuse</span> et très
-            <span class="font-semibold">gourmande</span>.
+            <span class="inline-block"
+              >- Très <span class="font-semibold">peureuse</span>, très
+              <span class="font-semibold">joueuse</span> et très
+              <span class="font-semibold">gourmande</span>.</span
+            >
             <br />
-            - Souvent avec son frère Snoop.
-            <br />
-            <br />
-            <br />
+            <span class="inline-block">- Souvent avec son frère Snoop.</span>
           </p>
-          <div class="h-px bg-slate-400 mt-4"></div>
+          <div class="h-px bg-slate-400 mt-4 mb-2"></div>
           <p class="text-xs">
             <span class="font-bold"
               >Il serait donc préférable qu’elle reste avec lui.</span
@@ -70,7 +71,7 @@
       <div class="flex md:flex-row flex-col w-100 font-mono">
         <div class="md:basis-1/2 basis-full md:mr-10">
           <div class="font-mono">
-            <h2 class="text-left text-base mt-4">
+            <h2 class="text-left text-base mt-10 mb-2">
               <span class="font-bold">Leur histoire d'amour fraternel :</span>
             </h2>
             <p class="text-xs">
@@ -89,7 +90,7 @@
           </div>
 
           <div class="font-mono">
-            <h2 class="text-left text-base mt-4">
+            <h2 class="text-left text-base mt-10 mb-2">
               <span class="font-bold">Ce qu'ils aiment :</span>
             </h2>
             <p class="text-xs">- Les friandises (le chemin vers leur cœur !)</p>
@@ -116,7 +117,7 @@
           </div>
         </div>
         <div class="basis-1/2">
-          <h3 class="font-bold mt-4">Le voyage de Snoop :</h3>
+          <h3 class="font-bold mt-10 mb-2">Le voyage de Snoop :</h3>
           <iframe
             src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FlesPetitsClochards%2Fvideos%2F528407173307717%2F&show_text=false&width=476&t=0"
             class="w-100 h-[320px] m-auto my-6"
@@ -132,7 +133,7 @@
 
       <div class="flex md:flex-row w-100 flex-col items-center">
         <div class="md:basis-1/2 basis-full font-mono md:mr-10">
-          <h3 class="font-bold mt-4">
+          <h3 class="font-bold mt-10 mb-2">
             Témoignages de Marie <br />(notre comportementaliste) :
           </h3>
 
