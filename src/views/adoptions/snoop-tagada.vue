@@ -158,7 +158,7 @@
           ></iframe>
         </div>
 
-        <div class="basis-1/2 mt-4">
+        <div class="basis-1/2 mt-4 flex flex-col justify-between">
           <p class="flex flex-col my-2">
             <span class="inline-block font-bold">L'âge de la sagesse :</span>
             <span class="inline-block mx-2">
@@ -237,18 +237,18 @@
       </div>
 
       <div class="flex md:flex-row flex-col w-100 font-mono">
-        <div class="md:basis-1/2 basis-full font-mono md:mr-10">
+        <div class="md:basis-1/2 basis-full font-mono md:mr-10 flex flex-col">
           <h3 class="font-bold mt-10 mb-2">
             Témoignages de Marie <br />(notre comportementaliste) :
           </h3>
 
-          <p class="font-serif border p-2 m-auto mt-4 w-80 text-xs">
+          <p class="font-serif border p-2 m-auto mt-4 basis-full text-xs">
             “Il [Snoop] est arrivé sauvage, je ne pouvais pas le toucher, je ne
             pouvais pas le caresser. Mais là après des années, je peux la
             caresser, il vient réclamer la caresse avant chaque repas.”⁣
           </p>
 
-          <p class="font-serif border p-2 m-auto mt-4 w-80 text-xs">
+          <p class="font-serif border p-2 m-auto mt-4 basis-full text-xs">
             “Tagada est plus compliquée que son frère Snoop, mais est prête pour
             un.e humain.e patient.e. Et puis comme c'est une grande joueuse,
             elle pourrait se détendre vachement mieux et rapidement si on prend
