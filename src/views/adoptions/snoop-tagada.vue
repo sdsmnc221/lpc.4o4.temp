@@ -149,7 +149,7 @@
         </p>
 
         <div class="basis-full flex flew-row">
-          <div class="basis-1/2 md:p-4">
+          <div class="basis-1/2 md:p-4 flex justify-center items-center">
             <iframe
               src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/463498869639043"
               class="w-auto h-[500px] m-auto"
