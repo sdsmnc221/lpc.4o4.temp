@@ -1,4 +1,7 @@
 <template>
+  <div class="fixed bg">
+    <AuroraBackground></AuroraBackground>
+  </div>
   <div class="adoptions snoop-tagada flex flex-col space-y-3 p-8">
     <h1
       class="font-mono text-lg md:mt-4 md:w-1/2 md:text-left text-center m-auto"
@@ -321,10 +324,19 @@
 </template>
 
 <script setup>
+import AuroraBackground from "@/components/AuroraBackground.vue";
 import { Badge } from "@/components/ui/badge";
 </script>
 
 <style lang="scss" scoped>
+.bg {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 .adoptions {
   width: 100%;
   height: auto;

@@ -1,8 +1,9 @@
 const animate = require("tailwindcss-animate");
+const { setupInspiraUI } = require("@inspira-ui/plugins");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: ["class", "selector"],
   safelist: ["dark"],
   prefix: "",
 
@@ -90,5 +91,5 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [animate, setupInspiraUI],
 };
