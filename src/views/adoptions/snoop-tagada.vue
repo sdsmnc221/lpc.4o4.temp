@@ -155,7 +155,18 @@
       >
         <h2 class="basis-full text-left text-base mt-10">
           <span class="font-bold"
-            >"Mais pourquoi adopter des chats adultes, et craintifs en plus ?"
+            >"Mais pourquoi adopter des chats
+            <TextHighlight
+              :delay="640"
+              class="rounded-lg bg-gradient-to-r from-yellow-200 to-slate-200"
+              >adultes</TextHighlight
+            >, et
+            <TextHighlight
+              :delay="1200"
+              class="rounded-lg bg-gradient-to-r from-yellow-200 to-slate-200"
+              >craintifs</TextHighlight
+            >
+            en plus ?"
           </span>
         </h2>
 
