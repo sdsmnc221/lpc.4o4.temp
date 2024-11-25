@@ -14,7 +14,14 @@
       <span class="font-semibold text-2xl"> Snoop & Tagada :</span>
       <br />
       <span class="font-normal"> Notre duo en </span>
-      <span class="font-bold">Or Noir.</span>
+      <span class="font-bold">
+        <TextHighlight
+          :delay="320"
+          text-end-color="hsl(var(--accent))"
+          class="rounded-lg bg-gradient-to-r from-yellow-500 to-slate-500"
+          >Or Noir.</TextHighlight
+        ></span
+      >
     </h1>
 
     <div class="m-auto flex flex-col space-y-3 md:w-1/2 w-72">
@@ -85,7 +92,12 @@
                 confiance aux humains.
               </span>
               <span class="font-bold underline decoration-wavy">
-                Aujourd'hui, leur lien est précieux</span
+                Aujourd'hui, leur lien est
+                <TextHighlight
+                  :delay="640"
+                  class="rounded-lg bg-gradient-to-r from-pink-200 to-orange-100"
+                  >précieux</TextHighlight
+                ></span
               >
               - Tagada trouve son assurance auprès de son frère, tandis que
               Snoop veille tendrement sur sa sœur.
@@ -112,8 +124,12 @@
 
             <p class="text-xs">
               - Et surtout...
-              <span class="font-bold underline decoration-wavy"
-                >être ensemble</span
+              <span class="font-bold underline decoration-wavy">
+                <TextHighlight
+                  :delay="640"
+                  class="rounded-lg bg-gradient-to-r from-pink-200 to-orange-100"
+                  >être ensemble</TextHighlight
+                ></span
               >
               !
             </p>
@@ -282,7 +298,11 @@
             <a
               href="https://www.facebook.com/photo.php?fbid=573438812019333&set=pb.100080596572190.-2207520000&type=3"
               target="_blank"
-              >[Tout lire]</a
+              ><TextHighlight
+                :delay="640"
+                class="rounded-lg bg-gradient-to-r from-pink-200 to-orange-100"
+                >[Tout lire]</TextHighlight
+              ></a
             >
           </p>
         </div>
@@ -327,6 +347,7 @@
 <script setup>
 import AuroraBackground from "@/components/AuroraBackground.vue";
 import TextGenerateEffect from "@/components/TextGenerateEffect.vue";
+import TextHighlight from "@/components/TextHighlight.vue";
 import { Badge } from "@/components/ui/badge";
 
 import { ref, onMounted, onUnmounted } from "vue";
