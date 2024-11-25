@@ -131,7 +131,108 @@
         </div>
       </div>
 
-      <div class="flex md:flex-row w-100 flex-col items-center">
+      <div class="flex md:flex-row flex-col w-100 font-mono text-xs flex-wrap">
+        <h2 class="basis-full text-left text-base mt-10">
+          <span class="font-bold"
+            >"Mais pourquoi adopter des chats adultes, et craintifs en plus ?"
+          </span>
+        </h2>
+
+        <p class="basis-full">
+          Laissez-nous vous raconter pourquoi Snoop et Tagada sont des trésors
+          uniques :
+        </p>
+
+        <div class="basis-1/2 p-4">
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/463498869639043"
+            class="w-auto h-[500px] m-auto"
+            style="border: none; overflow: hidden"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          ></iframe>
+        </div>
+
+        <div class="basis-1/2 mt-4">
+          <p class="flex flex-col my-2">
+            <span class="inline-block font-bold">L'âge de la sagesse :</span>
+            <span class="inline-block mx-2">
+              - Ils ont déjà leurs repères (arbre à chat pour Snoop, caisse de
+              transport pour Tagada)
+            </span>
+            <span class="inline-bloc mx-2">
+              - Plus de surprises de caractère : vous savez déjà qui ils sont
+            </span>
+            <span class="inline-block mx-2">
+              - Fini les belles bêtises de chatons !
+            </span>
+            <span class="inline-block mx-2">
+              - La maturité leur a appris la patience
+            </span>
+          </p>
+
+          <p class="flex flex-col my-2">
+            <span class="inline-block font-bold"
+              >La magie des chats craintifs :</span
+            >
+            <span class="inline-block mx-2">
+              - Chaque progrès est une victoire émouvante
+            </span>
+            <span class="inline-bloc mx-2">
+              - Leur confiance, une fois gagnée, est inestimable
+            </span>
+            <span class="inline-block mx-2">
+              - Leur gratitude se manifeste de façon unique
+            </span>
+            <span class="inline-block mx-2">
+              - Leur amour, plus discret, n'en est que plus précieux
+            </span>
+          </p>
+
+          <p class="flex flex-col my-2">
+            <span class="inline-block font-bold"
+              >Les avantages pratiques :</span
+            >
+            <span class="inline-block mx-2">
+              - Déjà identifiés et stérilisés : leur parcours médical de base
+              est complet, aucun remboursement supplémentaire ne sera demandé
+              pour toutes ces années de soins et de vie en foyer !
+            </span>
+          </p>
+
+          <p class="flex flex-col my-2">
+            <span class="inline-block font-bold"
+              >Le plus beau des cadeaux :</span
+            >
+            <span class="inline-block mx-2">
+              - La fierté de voir leur évolution
+            </span>
+            <span class="inline-block mx-2">
+              - La joie de gagner leur confiance
+            </span>
+            <span class="inline-block mx-2">
+              - Un lien unique qui se construit jour après jour
+            </span>
+            <span class="inline-block mx-2">
+              - La satisfaction d'offrir une vraie seconde chance
+            </span>
+          </p>
+        </div>
+
+        <p class="basis-full text-sm mt-2 text-center p-6 font-semibold">
+          Adopter Snoop et Tagada, c'est choisir une aventure différente,
+          peut-être plus lente, mais tellement enrichissante : telle qu'avait
+          choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil.
+          Ces chats, qui ont connu et la vie sauvage et l'accueil, savent mieux
+          que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné,
+          est un cadeau d'une pureté incomparable.
+        </p>
+      </div>
+
+      <div class="flex md:flex-row flex-col w-100 font-mono">
         <div class="md:basis-1/2 basis-full font-mono md:mr-10">
           <h3 class="font-bold mt-10 mb-2">
             Témoignages de Marie <br />(notre comportementaliste) :
@@ -177,7 +278,8 @@
             >
           </p>
         </div>
-        <div class="basis-1/2">
+
+        <div class="md:basis-1/2 basis-full font-mono md:ml-10">
           <div class="flex flex-col aligns-center items-center mb-10">
             <h2 class="text-left text-base md:mt-4 mt-10">
               <span class="font-bold">Adoption ou Accueil :</span>
@@ -201,7 +303,6 @@
             <div class="text-xs mt-2">
               <a
                 href="https://lespetitsclochards.fillout.com/chatmille-accueil"
-                l
                 target="_blank"
               >
                 <Badge>Devenons Chat'mille d'Accueil</Badge>
