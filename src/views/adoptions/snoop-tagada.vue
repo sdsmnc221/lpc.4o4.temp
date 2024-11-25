@@ -148,95 +148,96 @@
           uniques :
         </p>
 
-        <div class="basis-1/2 md:p-4">
-          <iframe
-            src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/463498869639043"
-            class="w-auto h-[500px] m-auto"
-            style="border: none; overflow: hidden"
-            scrolling="no"
-            frameborder="0"
-            allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share;"
-            allowFullScreen="true"
-          ></iframe>
+        <div class="basis-full flex flew-row">
+          <div class="basis-1/2 md:p-4">
+            <iframe
+              src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/463498869639043"
+              class="w-auto h-[500px] m-auto"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share;"
+              allowFullScreen="true"
+            ></iframe>
+          </div>
+
+          <div class="basis-1/2 p-4 flex flex-col justify-between">
+            <p class="flex flex-col my-2">
+              <span class="inline-block font-bold">L'âge de la sagesse :</span>
+              <span class="inline-block mx-2">
+                - Ils ont déjà leurs repères (arbre à chat pour Snoop, caisse de
+                transport pour Tagada)
+              </span>
+              <span class="inline-bloc mx-2">
+                - Plus de surprises de caractère : vous savez déjà qui ils sont
+              </span>
+              <span class="inline-block mx-2">
+                - Fini les belles bêtises de chatons !
+              </span>
+              <span class="inline-block mx-2">
+                - La maturité leur a appris la patience
+              </span>
+            </p>
+
+            <p class="flex flex-col my-2">
+              <span class="inline-block font-bold"
+                >La magie des chats craintifs :</span
+              >
+              <span class="inline-block mx-2">
+                - Chaque progrès est une victoire émouvante
+              </span>
+              <span class="inline-bloc mx-2">
+                - Leur confiance, une fois gagnée, est inestimable
+              </span>
+              <span class="inline-block mx-2">
+                - Leur gratitude se manifeste de façon unique
+              </span>
+              <span class="inline-block mx-2">
+                - Leur amour, plus discret, n'en est que plus précieux
+              </span>
+            </p>
+
+            <p class="flex flex-col my-2">
+              <span class="inline-block font-bold"
+                >Les avantages pratiques :</span
+              >
+              <span class="inline-block mx-2">
+                - Déjà identifiés et stérilisés : leur parcours médical de base
+                est complet, aucun remboursement supplémentaire ne sera demandé
+                pour toutes ces années de soins et de vie en foyer !
+              </span>
+            </p>
+
+            <p class="flex flex-col my-2">
+              <span class="inline-block font-bold"
+                >Le plus beau des cadeaux :</span
+              >
+              <span class="inline-block mx-2">
+                - La fierté de voir leur évolution
+              </span>
+              <span class="inline-block mx-2">
+                - La joie de gagner leur confiance
+              </span>
+              <span class="inline-block mx-2">
+                - Un lien unique qui se construit jour après jour
+              </span>
+              <span class="inline-block mx-2">
+                - La satisfaction d'offrir une vraie seconde chance
+              </span>
+            </p>
+          </div>
         </div>
 
-        <div class="basis-1/2 mt-4 flex flex-col justify-between">
-          <p class="flex flex-col my-2">
-            <span class="inline-block font-bold">L'âge de la sagesse :</span>
-            <span class="inline-block mx-2">
-              - Ils ont déjà leurs repères (arbre à chat pour Snoop, caisse de
-              transport pour Tagada)
-            </span>
-            <span class="inline-bloc mx-2">
-              - Plus de surprises de caractère : vous savez déjà qui ils sont
-            </span>
-            <span class="inline-block mx-2">
-              - Fini les belles bêtises de chatons !
-            </span>
-            <span class="inline-block mx-2">
-              - La maturité leur a appris la patience
-            </span>
-          </p>
-
-          <p class="flex flex-col my-2">
-            <span class="inline-block font-bold"
-              >La magie des chats craintifs :</span
-            >
-            <span class="inline-block mx-2">
-              - Chaque progrès est une victoire émouvante
-            </span>
-            <span class="inline-bloc mx-2">
-              - Leur confiance, une fois gagnée, est inestimable
-            </span>
-            <span class="inline-block mx-2">
-              - Leur gratitude se manifeste de façon unique
-            </span>
-            <span class="inline-block mx-2">
-              - Leur amour, plus discret, n'en est que plus précieux
-            </span>
-          </p>
-
-          <p class="flex flex-col my-2">
-            <span class="inline-block font-bold"
-              >Les avantages pratiques :</span
-            >
-            <span class="inline-block mx-2">
-              - Déjà identifiés et stérilisés : leur parcours médical de base
-              est complet, aucun remboursement supplémentaire ne sera demandé
-              pour toutes ces années de soins et de vie en foyer !
-            </span>
-          </p>
-
-          <p class="flex flex-col my-2">
-            <span class="inline-block font-bold"
-              >Le plus beau des cadeaux :</span
-            >
-            <span class="inline-block mx-2">
-              - La fierté de voir leur évolution
-            </span>
-            <span class="inline-block mx-2">
-              - La joie de gagner leur confiance
-            </span>
-            <span class="inline-block mx-2">
-              - Un lien unique qui se construit jour après jour
-            </span>
-            <span class="inline-block mx-2">
-              - La satisfaction d'offrir une vraie seconde chance
-            </span>
-          </p>
-        </div>
-
-        <p
+        <div
           class="basis-full md:text-sm text-xs mt-2 text-center md:p-6 p-0 font-semibold"
+          ref="textRef"
         >
-          Adopter Snoop et Tagada, c'est choisir une aventure différente,
-          peut-être plus lente, mais tellement enrichissante : telle qu'avait
-          choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil.
-          Ces chats, qui ont connu et la vie sauvage et l'accueil, savent mieux
-          que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné,
-          est un cadeau d'une pureté incomparable.
-        </p>
+          <TextGenerateEffect
+            v-if="isVisible"
+            words="Adopter Snoop et Tagada, c'est choisir une aventure différente, peut-être plus lente, mais tellement enrichissante : telle qu'avait choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil. Ces chats, qui ont connu et la vie sauvage et l'accueil, savent mieux que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné, est un cadeau d'une pureté incomparable."
+          ></TextGenerateEffect>
+        </div>
       </div>
 
       <div class="flex md:flex-row flex-col w-100 font-mono">
@@ -325,7 +326,43 @@
 
 <script setup>
 import AuroraBackground from "@/components/AuroraBackground.vue";
+import TextGenerateEffect from "@/components/TextGenerateEffect.vue";
 import { Badge } from "@/components/ui/badge";
+
+import { ref, onMounted, onUnmounted } from "vue";
+
+const textRef = ref(null);
+const isVisible = ref(false);
+
+const observerCallback = (entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      isVisible.value = true;
+      // Optional: Disconnect observer after first appearance
+      // observer.disconnect();
+    }
+  });
+};
+
+let observer;
+
+onMounted(() => {
+  observer = new IntersectionObserver(observerCallback, {
+    // Adjust these options as needed
+    threshold: 0.1, // Triggers when 10% of the element is visible
+    rootMargin: "50px", // Adds 50px margin to trigger slightly before the element is in view
+  });
+
+  if (textRef.value) {
+    observer.observe(textRef.value);
+  }
+});
+
+onUnmounted(() => {
+  if (observer) {
+    observer.disconnect();
+  }
+});
 </script>
 
 <style lang="scss" scoped>
