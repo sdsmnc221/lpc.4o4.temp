@@ -131,19 +131,21 @@
         </div>
       </div>
 
-      <div class="flex md:flex-row flex-col w-100 font-mono text-xs flex-wrap">
+      <div
+        class="flex md:flex-row flex-col w-100 font-mono text-xs md:flex-wrap flex-nowrap"
+      >
         <h2 class="basis-full text-left text-base mt-10">
           <span class="font-bold"
             >"Mais pourquoi adopter des chats adultes, et craintifs en plus ?"
           </span>
         </h2>
 
-        <p class="basis-full">
+        <p class="basis-full mb-2">
           Laissez-nous vous raconter pourquoi Snoop et Tagada sont des trésors
           uniques :
         </p>
 
-        <div class="basis-1/2 p-4">
+        <div class="basis-1/2 md:p-4">
           <iframe
             src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/463498869639043"
             class="w-auto h-[500px] m-auto"
@@ -151,7 +153,7 @@
             scrolling="no"
             frameborder="0"
             allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share;"
             allowFullScreen="true"
           ></iframe>
         </div>
@@ -222,7 +224,9 @@
           </p>
         </div>
 
-        <p class="basis-full text-sm mt-2 text-center p-6 font-semibold">
+        <p
+          class="basis-full md:text-sm text-xs mt-2 text-center md:p-6 p-0 font-semibold"
+        >
           Adopter Snoop et Tagada, c'est choisir une aventure différente,
           peut-être plus lente, mais tellement enrichissante : telle qu'avait
           choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil.
