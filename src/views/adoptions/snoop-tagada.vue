@@ -251,6 +251,7 @@
         >
           <TextGenerateEffect
             v-if="isVisible"
+            :duration="1.2"
             words="Adopter Snoop et Tagada, c'est choisir une aventure différente, peut-être plus lente, mais tellement enrichissante : telle qu'avait choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil. Ces chats, qui ont connu et la vie sauvage et l'accueil, savent mieux que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné, est un cadeau d'une pureté incomparable."
           ></TextGenerateEffect>
         </div>
