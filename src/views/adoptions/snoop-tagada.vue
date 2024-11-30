@@ -135,18 +135,11 @@
             </p>
           </div>
         </div>
-        <div class="basis-1/2">
-          <h3 class="font-bold mt-10 mb-2">Le voyage de Snoop :</h3>
-          <iframe
-            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FlesPetitsClochards%2Fvideos%2F528407173307717%2F&show_text=false&width=476&t=0"
-            class="w-100 h-[320px] m-auto my-6"
-            style="border: none; overflow: hidden"
-            scrolling="no"
-            frameborder="0"
-            allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true"
-          ></iframe>
+        <div class="basis-1/2 md:p-8 p-2 mt-4">
+          <img
+            alt="Snoop et Tagada, avec ce qu'ils aiment"
+            src="/snoop-tagada/7.jpg"
+          />
         </div>
       </div>
 
@@ -293,42 +286,26 @@
             prend le temps de jouer avec elle.”⁣
           </p>
 
-          <h3 class="font-bold mt-10 mb-2">Un mot du cœur :</h3>
-
-          <p class="text-xs">
-            Aujourd'hui, Snoop et Tagada ne sont plus des chats sauvages, mais
-            simplement des chats timides qui ont besoin de vous. Ces deux âmes
-            sensibles cherchent maintenant des familles d'accueil ou à vie, où
-            ils pourront tout le temps partager l'environnement avec leurs
-            humains, essentiels à leur socialisation. ⁣ ⠀⁣
-          </p>
-
-          <p class="text-xs mt-4">
-            En devenant famille pour les chats comme Snoop et Tagada, vous
-            offrez une chance à des félins triplement oubliés : noirs, adultes
-            et craintifs. Certes, cela demande de la patience et de la
-            persévérance, mais quelle plus belle récompense que de voir un chat
-            apprendre à faire confiance, jour après jour ?⁣
-          </p>
-
-          <p
-            class="text-xs mt-2 text-right underline decoration-wavy pr-4 font-semibold"
-          >
-            <a
-              href="https://www.facebook.com/photo.php?fbid=573438812019333&set=pb.100080596572190.-2207520000&type=3"
-              target="_blank"
-              ><TextHighlight
-                :delay="640"
-                class="rounded-lg bg-gradient-to-r from-pink-200 to-orange-100"
-                >[Tout lire]</TextHighlight
-              ></a
-            >
-          </p>
+          <div class="basis-1/2">
+            <h3 class="font-bold mt-10 mb-2">Le voyage de Snoop :</h3>
+            <iframe
+              src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FlesPetitsClochards%2Fvideos%2F528407173307717%2F&show_text=false&width=476&t=0"
+              class="w-100 h-[320px] m-auto my-6"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              allowFullScreen="true"
+            ></iframe>
+          </div>
         </div>
 
-        <div class="md:basis-1/2 basis-full font-mono md:ml-10">
-          <div class="flex flex-col aligns-center items-center mb-10">
-            <h2 class="text-left text-base md:mt-4 mt-10">
+        <div
+          class="md:basis-1/2 basis-full flex flex-col justify-between font-mono md:ml-10"
+        >
+          <div class="flex flex-col aligns-center items-center mb-4 mt-10">
+            <h2 class="text-left text-base">
               <span class="font-bold">Adoption ou Accueil :</span>
             </h2>
 
@@ -362,8 +339,46 @@
               </a>
             </div>
           </div>
-          <img alt="Snoop et Tagada" src="/snoop-tagada/1.jpg" />
+          <img
+            alt="Snoop et Tagada"
+            class="md:p-8 p-2 mt-4"
+            src="/snoop-tagada/1.jpg"
+          />
         </div>
+      </div>
+
+      <div class="flex flex-col w-100 font-mono">
+        <h3 class="font-bold mt-10 mb-2">Un mot du cœur :</h3>
+
+        <p class="text-xs">
+          Aujourd'hui, Snoop et Tagada ne sont plus des chats sauvages, mais
+          simplement des chats timides qui ont besoin de vous. Ces deux âmes
+          sensibles cherchent maintenant des familles d'accueil ou à vie, où ils
+          pourront tout le temps partager l'environnement avec leurs humains,
+          essentiels à leur socialisation. ⁣ ⠀⁣
+        </p>
+
+        <p class="text-xs mt-4">
+          En devenant famille pour les chats comme Snoop et Tagada, vous offrez
+          une chance à des félins triplement oubliés : noirs, adultes et
+          craintifs. Certes, cela demande de la patience et de la persévérance,
+          mais quelle plus belle récompense que de voir un chat apprendre à
+          faire confiance, jour après jour ?⁣
+        </p>
+
+        <p
+          class="text-xs mt-2 text-right underline decoration-wavy pr-4 font-semibold"
+        >
+          <a
+            href="https://www.facebook.com/photo.php?fbid=573438812019333&set=pb.100080596572190.-2207520000&type=3"
+            target="_blank"
+            ><TextHighlight
+              :delay="640"
+              class="rounded-lg bg-gradient-to-r from-pink-200 to-orange-100"
+              >[Tout lire]</TextHighlight
+            ></a
+          >
+        </p>
       </div>
     </div>
   </div>
