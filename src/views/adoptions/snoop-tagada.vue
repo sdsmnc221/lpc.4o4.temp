@@ -91,12 +91,12 @@
                 >Après 6 mois de vie sauvage, ils ont appris ensemble à faire
                 confiance aux humains.
               </span>
-              <span class="font-bold underline decoration-wavy">
-                Aujourd'hui, leur lien est
+              Aujourd'hui,
+              <span class="font-bold">
                 <TextHighlight
                   :delay="640"
                   class="rounded-lg bg-gradient-to-r from-pink-200 to-orange-100"
-                  >précieux</TextHighlight
+                  >leur lien est précieux</TextHighlight
                 ></span
               >
               - Tagada trouve son assurance auprès de son frère, tandis que
@@ -177,16 +177,11 @@
 
         <div class="basis-full flex md:flex-row flex-col">
           <div class="basis-1/2 md:p-4 flex justify-center items-center">
-            <iframe
-              src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/463498869639043"
+            <video
+              src="/snoop-tagada/e00.mp4"
               class="w-auto h-[500px] m-auto"
-              style="border: none; overflow: hidden"
-              scrolling="no"
-              frameborder="0"
-              allowfullscreen="true"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share;"
-              allowFullScreen="true"
-            ></iframe>
+              controls
+            ></video>
           </div>
 
           <div class="basis-1/2 p-4 flex flex-col justify-between">
@@ -227,12 +222,23 @@
 
             <p class="flex flex-col my-2">
               <span class="inline-block font-bold"
-                >Les avantages pratiques :</span
+                >Leur santé suivie avec soin :</span
               >
               <span class="inline-block mx-2">
-                - Déjà identifiés et stérilisés : leur parcours médical de base
-                est complet, aucun remboursement supplémentaire ne sera demandé
-                pour toutes ces années de soins et de vie en foyer !
+                - Déjà identifiés et stérilisés
+              </span>
+              <span class="inline-block mx-2">
+                - Régulièrement déparasités et vermifugés
+              </span>
+              <span class="inline-block mx-2">
+                - En bonne santé et propres
+              </span>
+              <span class="inline-block mx-2">
+                - Vaccination à prévoir, avec notre aide*
+              </span>
+              <span class="inline-block mx-2 mt-4" style="font-size: 0.64rem">
+                (*)Remboursement des soins de base à l'adoption.<br />
+                L'association accompagne pour la vaccination.
               </span>
             </p>
 
@@ -263,7 +269,7 @@
           <TextGenerateEffect
             v-if="isVisible"
             :duration="1.2"
-            words="Adopter Snoop et Tagada, c'est choisir une aventure différente, peut-être plus lente, mais tellement enrichissante : telle qu'avait choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil. Ces chats, qui ont connu et la vie sauvage et l'accueil, savent mieux que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné, est un cadeau d'une pureté incomparable."
+            words="Adopter Snoop et Tagada, c'est choisir une aventure différente, peut-être plus lente, mais tellement enrichissante : telle qu'avait choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil (cf. vidéo ci-dessus). Ces chats, qui ont connu la vie sauvage et celle en foyer d'accueil, savent mieux que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné, est un cadeau d'une pureté incomparable."
           ></TextGenerateEffect>
         </div>
       </div>
@@ -283,8 +289,8 @@
           <p class="font-serif border p-2 m-auto mt-4 basis-full text-xs">
             “Tagada est plus compliquée que son frère Snoop, mais est prête pour
             un.e humain.e patient.e. Et puis comme c'est une grande joueuse,
-            elle pourrait se détendre vachement mieux et rapidement si on prend
-            le temps de jouer avec elle.”⁣
+            elle pourrait se détendre beaucoup plus, et plus rapidement si on
+            prend le temps de jouer avec elle.”⁣
           </p>
 
           <h3 class="font-bold mt-10 mb-2">Un mot du cœur :</h3>
@@ -293,15 +299,16 @@
             Aujourd'hui, Snoop et Tagada ne sont plus des chats sauvages, mais
             simplement des chats timides qui ont besoin de vous. Ces deux âmes
             sensibles cherchent maintenant des familles d'accueil ou à vie, où
-            ils pourront recevoir des contacts humains réguliers, essentiels à
-            leur socialisation. ⁣ ⠀⁣
+            ils pourront tout le temps partager l'environnement avec leurs
+            humains, essentiels à leur socialisation. ⁣ ⠀⁣
           </p>
 
           <p class="text-xs mt-4">
             En devenant famille pour les chats comme Snoop et Tagada, vous
-            offrez une chance à un être souvent oublié. Certes, cela demande de
-            la patience et de la persévérance, mais quelle plus belle récompense
-            que de voir un chat apprendre à faire confiance, jour après jour ?⁣
+            offrez une chance à des félins triplement oubliés : noirs, adultes
+            et craintifs. Certes, cela demande de la patience et de la
+            persévérance, mais quelle plus belle récompense que de voir un chat
+            apprendre à faire confiance, jour après jour ?⁣
           </p>
 
           <p
@@ -325,18 +332,12 @@
               <span class="font-bold">Adoption ou Accueil :</span>
             </h2>
 
-            <div class="text-xs">
-              <a href="tel:+33642804318" target="_blank">
-                <Badge>06 42 80 43 18 (Mme Bonniot)</Badge>
-              </a>
-            </div>
-
             <div class="text-xs mt-2">
               <a
                 href="https://lespetitsclochards.fillout.com/pre-adoption"
                 target="_blank"
               >
-                <Badge>Formulaire pour préavis d'adoption</Badge>
+                <Badge>Formulaire d'adoption</Badge>
               </a>
             </div>
 
@@ -345,7 +346,19 @@
                 href="https://lespetitsclochards.fillout.com/chatmille-accueil"
                 target="_blank"
               >
-                <Badge>Devenons Chat'mille d'Accueil</Badge>
+                <Badge>Formulaire d'accueil</Badge>
+              </a>
+            </div>
+
+            <div class="text-xs mt-2">
+              <a href="tel:+33642804318" target="_blank">
+                <Badge>06 42 80 43 18 (Mme Bonniot)</Badge>
+              </a>
+            </div>
+
+            <div class="text-xs mt-2">
+              <a href="mailto:lespetitsclochards91@gmail.com" target="_blank">
+                <Badge>lespetitsclochards91@gmail.com</Badge>
               </a>
             </div>
           </div>

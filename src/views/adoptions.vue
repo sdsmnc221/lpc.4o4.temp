@@ -34,17 +34,17 @@
       </div>
 
       <div class="font-mono text-xs">
-        <a
-          href="https://lespetitsclochards.fillout.com/pre-adoption"
-          target="_blank"
-        >
-          <Badge>Formulaire pour préavis d'adoption</Badge>
+        <a href="mailto:lespetitsclochards91@gmail.com" target="_blank">
+          <Badge>lespetitsclochards91@gmail.com</Badge>
         </a>
       </div>
 
       <div class="font-mono text-xs">
-        <a href="mailto:lespetitsclochards91@gmail.com" target="_blank">
-          <Badge>lespetitsclochards91@gmail.com</Badge>
+        <a
+          href="https://lespetitsclochards.fillout.com/pre-adoption"
+          target="_blank"
+        >
+          <Badge>Formulaire d'adoption</Badge>
         </a>
       </div>
 
@@ -54,7 +54,7 @@
           l
           target="_blank"
         >
-          <Badge>Devenons Chat'mille d'Accueil</Badge>
+          <Badge>Formulaire d'accueil</Badge>
         </a>
       </div>
     </div>
