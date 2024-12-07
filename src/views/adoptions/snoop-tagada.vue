@@ -62,8 +62,8 @@
             <span class="inline-block">- Stérélisée, identifiée.</span>
             <br />
             <span class="inline-block"
-              >- Très <span class="font-semibold">peureuse</span>, très
-              <span class="font-semibold">joueuse</span> et très
+              >- <span class="font-semibold">Peureuse</span>, très
+              <span class="font-semibold">joueuse</span> et
               <span class="font-semibold">gourmande</span>.</span
             >
             <br />
@@ -109,17 +109,17 @@
               <span class="font-bold">Ce qu'ils aiment :</span>
             </h2>
             <p class="text-xs">- Les friandises (le chemin vers leur cœur !)</p>
-            <p class="text-xs">- Les jeux (ils sont très actifs)</p>
+            <p class="text-xs">- Les jeux (ils sont actifs et participatifs)</p>
             <p class="text-xs">
               - Leur zone de confort respective (leur royaume !) :
             </p>
             <p class="text-xs mt-2 mb-4 p-2 border">
               Snoop s'est créé son petit coin de paradis dans son dodo douillet
-              favoris, tandis que Tagada, déjà copine avec les caisses de
-              transport, facilite grandement le départ du foyer d’accueil pour
-              l’arrivée à son foyer à vie. Ces petits détails, qui peuvent
-              sembler anodins, sont en réalité de grandes victoires pour des
-              chats anciennement craintifs !
+              favori, tandis que Tagada, déjà copine avec les caisses de
+              transport, facilite grandement les déplacements comme par exemple
+              le départ du foyer d’accueil pour l’arrivée à son foyer à vie. Ces
+              petits détails, qui peuvent sembler anodins, sont en réalité de
+              grandes victoires pour des chats anciennement craintifs !
             </p>
 
             <p class="text-xs">
@@ -153,13 +153,8 @@
               :delay="640"
               class="rounded-lg bg-gradient-to-r from-yellow-200 to-slate-200"
               >adultes</TextHighlight
-            >, et
-            <TextHighlight
-              :delay="1200"
-              class="rounded-lg bg-gradient-to-r from-yellow-200 to-slate-200"
-              >craintifs</TextHighlight
             >
-            en plus ?"
+            ?"
           </span>
         </h2>
 
@@ -197,7 +192,7 @@
 
             <p class="flex flex-col my-2">
               <span class="inline-block font-bold"
-                >La magie des chats craintifs :</span
+                >La magie des chats timides :</span
               >
               <span class="inline-block mx-2">
                 - Chaque progrès est une victoire émouvante
@@ -231,7 +226,7 @@
               </span>
               <span class="inline-block mx-2 mt-4" style="font-size: 0.64rem">
                 (*)Remboursement des soins de base à l'adoption.<br />
-                L'association accompagne pour la vaccination.
+                L'association vous accompagne pour la vaccination.
               </span>
             </p>
 
@@ -262,7 +257,7 @@
           <TextGenerateEffect
             v-if="isVisible"
             :duration="1.2"
-            words="Adopter Snoop et Tagada, c'est choisir une aventure différente, peut-être plus lente, mais tellement enrichissante : telle qu'avait choisie l'humaine de Rufus - ancien pensionnaire du foyer d'accueil (cf. vidéo ci-dessus). Ces chats, qui ont connu la vie sauvage et celle en foyer d'accueil, savent mieux que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné, est un cadeau d'une pureté incomparable."
+            words="Adopter Snoop et Tagada, c'est choisir une aventure différente, peut-être plus lente, mais tellement enrichissante : telle que l'avait choisie l'adoptante de Rufus - ancien pensionnaire du foyer d'accueil (cf. vidéo ci-dessus). Ces chats, qui ont connu la vie sauvage et celle en foyer d'accueil, savent mieux que quiconque la valeur d'un foyer aimant. Leur amour, une fois gagné, est un cadeau d'une pureté incomparable."
           ></TextGenerateEffect>
         </div>
       </div>
@@ -280,8 +275,8 @@
           </p>
 
           <p class="font-serif border p-2 m-auto mt-4 basis-full text-xs">
-            “Tagada est plus compliquée que son frère Snoop, mais est prête pour
-            un.e humain.e patient.e. Et puis comme c'est une grande joueuse,
+            “Tagada est plus timide que son frère Snoop, mais est prête pour
+            un.e adoptant.e patient.e. Et puis comme c'est une grande joueuse,
             elle pourrait se détendre beaucoup plus, et plus rapidement si on
             prend le temps de jouer avec elle.”⁣
           </p>
@@ -353,17 +348,17 @@
         <p class="text-xs">
           Aujourd'hui, Snoop et Tagada ne sont plus des chats sauvages, mais
           simplement des chats timides qui ont besoin de vous. Ces deux âmes
-          sensibles cherchent maintenant des familles d'accueil ou à vie, où ils
-          pourront tout le temps partager l'environnement avec leurs humains,
-          essentiels à leur socialisation. ⁣ ⠀⁣
+          sensibles cherchent maintenant des familles d'accueil ou un foyer
+          aimant, où ils pourront tout le temps partager l'environnement de
+          leurs adoptants(es), essentiels à leur socialisation. ⁣ ⠀⁣
         </p>
 
         <p class="text-xs mt-4">
-          En devenant famille pour les chats comme Snoop et Tagada, vous offrez
-          une chance à des félins triplement oubliés : noirs, adultes et
-          craintifs. Certes, cela demande de la patience et de la persévérance,
-          mais quelle plus belle récompense que de voir un chat apprendre à
-          faire confiance, jour après jour ?⁣
+          En devenant famille pour les chats comme Snoop et Tagada, vous leur
+          offrez une chance dont ils vous resont grandement reconnaissants toute
+          leur vie. Certes, cela demande de la patience et de la persévérance,
+          mais quelle plus belle récompense que de gagner leur confiance, jour
+          après jour ?⁣
         </p>
 
         <p
